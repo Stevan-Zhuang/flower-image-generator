@@ -3,7 +3,7 @@ from PIL import ImageTk
 import torch
 from torchvision import transforms as T
 from torchvision.utils import make_grid
-from model import DCGAN
+from pl_bolts.models.gans import DCGAN
 from typing import Callable
 
 class Application:
